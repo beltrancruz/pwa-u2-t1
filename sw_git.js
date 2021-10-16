@@ -26,14 +26,14 @@ self.addEventListener('install',(event)=>{
 
     const promesaCache = caches.open(CACHE_STATIC_NAME).then((cache)=>{
         return cache.addAll([
-            '/',
-            'pwa-u2-t1/index.html',
-            'pwa-u2-t1/css/page.css',
-            'pwa-u2-t1/img/1.png',
-            'pwa-u2-t1/img/2.png',
-            'pwa-u2-t1/img/3.png',
-            'pwa-u2-t1/img/4.png',
-            'pwa-u2-t1/js/app.js'
+            '/pwa-u2-t1',
+            '/pwa-u2-t1/index.html',
+            '/pwa-u2-t1/css/page.css',
+            '/pwa-u2-t1/img/1.png',
+            '/pwa-u2-t1/img/2.png',
+            '/pwa-u2-t1/img/3.png',
+            '/pwa-u2-t1/img/4.png',
+            '/pwa-u2-t1/js/app.js'
         ]);
     });
 
