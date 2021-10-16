@@ -1,6 +1,6 @@
 let principal = $('#principal');
 let notice = $('#notice');
-let swGit = 'path/sw_git.js'
+let swGit = '/pwa-u2-t1/sw_git.js'
 let sw = '/sw.js'
 
 if(navigator.serviceWorker){
