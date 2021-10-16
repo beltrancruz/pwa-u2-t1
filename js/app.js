@@ -8,6 +8,7 @@ if(navigator.serviceWorker){
     console.log(window.location.hostname)
     console.log(window.location.href)
     if(!window.location.href.includes("localhost")){
+        console.log("sw_git");
         sw = swGit
     }
     navigator.serviceWorker.register(sw);
